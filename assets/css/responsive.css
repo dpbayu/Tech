@@ -1,3 +1,26 @@
+@media (max-width: 768px) {
+    .product .product-list img {
+        height: 200px;
+        width: 200px;
+        margin: 0 20px;
+    }
+
+    .carousel-2 .carousel-inner .carousel-item img {
+        height: 550px;
+        width: 100%;
+    }
+
+    footer .menu-box {
+        margin-right: 20px;
+        padding-right: 50px;
+    }
+
+    .subscription form {
+        width: 50%;
+        gap: 20px;
+    }
+}
+
 @media (max-width: 425px) {
     .carousel .carousel-inner .carousel-item img {
         height: 300px;
