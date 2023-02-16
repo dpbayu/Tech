@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+
+/* Content */
+section {
+    margin: 25px;
+}
+
+/* Card */
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    height: fit-content;
+    background-color: #cfcfcf;
+}
+
+footer .menu-box {
+    margin-right: 40px;
+    padding-right: 100px;
+    border-right: 1px solid #ababab;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+footer .icons i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+footer .copyright-content {
+    width: 75%;
+    padding: 20px 0;
+    border-top: 1px solid #ababab;
+}
