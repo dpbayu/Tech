@@ -1,0 +1,94 @@
+@media (max-width: 425px) {
+    .carousel .carousel-inner .carousel-item img {
+        height: 300px;
+    }
+
+    .product .product-list {
+        display: flex;
+        overflow: auto;
+        flex-wrap: nowrap;
+        justify-content: unset;
+    }
+
+    .product .product-list img {
+        height: 200px;
+        width: 200px;
+        margin: 0 20px;
+    }
+
+    .product-1 img {
+        height: 175px;
+    }
+
+    .product-2 img {
+        height: 175px;
+    }
+
+    .product-3 .row {
+        gap: 20px;
+    }
+
+    .product-4 img {
+        height: 175px;
+    }
+
+    .carousel-2 .carousel-inner .carousel-item img {
+        height: 300px;
+    }
+
+    .subscription {
+        padding: 20px 0;
+        height: fit-content;
+    }
+
+    .subscription .subscription-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscription .subscription-text {
+        justify-content: center;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .subscription form {
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 10px;
+        width: 100%;
+    }
+
+    footer .box {
+        flex-wrap: wrap;
+    }
+
+    footer .menu-box {
+        width: 25%;
+        border: 0px;
+        margin: 0 12px;
+        padding: 0;
+        height: 100px;
+    }
+
+    footer .copyright-content {
+        width: 100%;
+    }
+
+    footer .copyright-box {
+        flex-direction: column-reverse;
+        margin: 0 20px;
+        gap: 0;
+    }
+
+    footer .copyright-menu {
+        margin-bottom: 12px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    footer .copyright-menu small {
+        width: 85px;
+    }
+}
