@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 768px) {
+    .list-menu .content .row img {
+        height: 175px;
+    }
+
     .carousel .carousel-inner .carousel-item img {
         height: 500px;
     }
@@ -57,6 +61,33 @@
 }
 
 @media (max-width: 425px) {
+    .jumbotron img {
+        height: 500px;
+    }
+
+    .jumbotron form {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+    .jumbotron form button {
+        width: 50%;
+    }
+
+    .list-menu .content .row {
+        gap: 20px;
+    }
+
+    .menu-product .row {
+        gap: 20px;
+    }
+
+    .menu-product .last {
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .carousel .carousel-inner .carousel-item .carousel-caption {
         text-align: center;
     }
