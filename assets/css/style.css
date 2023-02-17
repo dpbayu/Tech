@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 /* Navbar */
 
 
@@ -17,6 +15,15 @@ section {
 /* Carousel 1 */
 .carousel {
     margin-top: 50px;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    top: 15%;
+    text-align: start;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 44px;
 }
 
 /* Card */
@@ -58,6 +65,18 @@ section {
 /* Product 3 */
 .product-3 {
     color: white;
+}
+
+.product-3 .card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Product 4 */
@@ -133,7 +152,7 @@ footer {
 }
 
 footer .box {
-    padding: 28px 0;
+    padding: 28px 20px;
     display: flex;
     justify-content: center;
 }
