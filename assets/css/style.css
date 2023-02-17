@@ -4,8 +4,62 @@
     box-sizing: border-box;
 }
 
-/* Navbar */
+/* Jumbotron */
+.jumbotron img {
+    width: 100vw;
+}
 
+.jumbotron .card-img-overlay {
+    top: 25%;
+}
+
+.jumbotron .card-title {
+    font-size: 56px;
+}
+
+/* Menu List */
+.list-menu .content {
+    display: flex;
+}
+.list-menu .content .row {
+    margin: 20px 0;
+}
+
+.list-menu .content img {
+    height: 250px;
+}
+
+.list-menu .content .label {
+    border-radius: 5px;
+    padding: 2px 10px;
+    background-color: #2d2daa;
+    width: fit-content;
+    color: white;
+}
+
+ul {
+    padding: 20px 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 28px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-size: 20px;
+    color: #434343;
+    text-decoration: none;
+}
+
+ul li a:hover,
+ul li a.active {
+    border-bottom: 2px solid blue;
+    color: black;
+}
 
 /* Content */
 section {

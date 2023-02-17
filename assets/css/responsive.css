@@ -1,3 +1,14 @@
+@media (max-width: 1024px) {
+    .product .product-list {
+        gap: 20px;
+    }
+
+    .subscription form {
+        width: 50%;
+        gap: 20px;
+    }
+}
+
 @media (min-width: 768px) {
     .product-1 .card-img-overlay {
         top: 40%;
@@ -20,7 +31,6 @@
     }
 
     .subscription form {
-        width: 50%;
         gap: 20px;
     }
 }
@@ -33,12 +43,16 @@
     .product .product-list img {
         height: 200px;
         width: 200px;
-        margin: 0 20px;
     }
 
     .carousel-2 .carousel-inner .carousel-item img {
         height: 500px;
         width: 100%;
+    }
+
+    .subscription form {
+        width: 50%;
+        gap: 20px;
     }
 }
 
@@ -65,7 +79,6 @@
     .product .product-list img {
         height: 200px;
         width: 200px;
-        margin: 0 20px;
     }
 
     .product-1 img {
