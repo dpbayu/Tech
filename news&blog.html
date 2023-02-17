@@ -69,23 +69,23 @@
     <!-- Jumbotron End -->
     <!-- List Menu Start -->
     <div class="list-menu">
-        <div class="" x-data="{ menu: 'media' }">
+        <div x-data="{ menu: 'media' }">
             <!-- Menu -->
-            <ul class="">
-                <li class="">
-                    <a class="inline-block rounded-t py-2 px-4 font-semibold hover:text-blue-800"
+            <ul>
+                <li>
+                    <a class="py-2 px-4"
                         :class="{'active': menu === 'media'}" href="#" @click.prevent="menu = 'media'">Menu</a>
                 </li>
-                <li class="">
-                    <a class="inline-block py-2 px-4 text-blue-500 font-semibold hover:text-blue-800"
+                <li>
+                    <a class="py-2 px-4"
                         :class="{'active': menu === 'blog'}" href="#" @click.prevent="menu = 'blog'">Blog</a>
                 </li>
-                <li class="">
-                    <a class="inline-block py-2 px-4 text-blue-500 font-semibold hover:text-blue-800"
+                <li>
+                    <a class="py-2 px-4"
                         :class="{'active': menu === 'events'}" href="#" @click.prevent="menu = 'events'">Events</a>
                 </li>
             </ul>
-            <!-- Text -->
+            <!-- Menu -->
             <div>
                 <!-- Text 1 -->
                 <div class="content" x-show="menu === 'media'">

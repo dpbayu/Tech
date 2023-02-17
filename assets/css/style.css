@@ -104,6 +104,20 @@ ul li a {
     align-items: center;
 }
 
+.product-detail {
+    background-color: antiquewhite;
+}
+
+.product-detail .product {
+    padding: 40px 0;
+    display: flex;
+    gap: 40px;
+}
+
+.feature .row {
+    --bs-gutter-x: 0;
+}
+
 .menu-product .last {
     display: flex;
     justify-content: space-between;
