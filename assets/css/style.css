@@ -33,6 +33,14 @@ section {
 }
 
 /* Menu List */
+.list-product .row {
+    margin-bottom: 20px;
+}
+
+.list-product img {
+    height: 250px;
+}
+
 .list-menu .content {
     display: flex;
 }
@@ -71,8 +79,8 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover,
-ul li a.active {
+.list-menu ul li a:hover,
+.list-menu ul li a.active {
     border-bottom: 2px solid blue;
     color: black;
 }
