@@ -108,6 +108,10 @@ ul li a {
     background-color: antiquewhite;
 }
 
+.detail-news img {
+    width: 100%;
+} 
+
 .product-detail .product img {
     height: 500px;
     width: 500px;
