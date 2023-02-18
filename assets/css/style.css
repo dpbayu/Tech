@@ -108,6 +108,11 @@ ul li a {
     background-color: antiquewhite;
 }
 
+.product-detail .product img {
+    height: 500px;
+    width: 500px;
+}
+
 .product-detail .product {
     padding: 40px 0;
     display: flex;
